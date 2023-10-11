@@ -8,13 +8,18 @@
     */
 
     //Entrada
-
+    let lista = [3.5, 4.2, 5, 8, 9.3, 7];
+    let decimais = 0
 
     //Processamento
-
+    for (num of lista) {
+        if (!Number.isInteger(num)) {
+            decimais += num
+        }
+    }
 
     //Saída
-
+    alert(`A somatória dos números decimais será de: ${decimais}.`);
 
     /*
     A somatória dos números decimais será de 17.
